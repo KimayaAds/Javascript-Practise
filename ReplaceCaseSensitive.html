@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2> Javascrfipt String Methods</h2>
+<p>Try to replace Microsoft with Google in para below</p>
+<button onClick="myFunction()">Try it </button>
+<p id="demo">Please visit Microsoft!</p>
+<script>
+function myFunction(){
+var str = document.getElementById("demo").innerHTML;
+var str = str.replace ("MICROSOFT ","Google");
+document.getElementById("demo").innerHTML = txt;
+
+}
+
+
+</script>
+<p><strong>Note:</strong> Nothing will happen . By default , the replace () method is case senstive wRITING Microsoft  WITH upper case   will not work </p>
+</body>
+</html>
